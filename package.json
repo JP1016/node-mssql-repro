@@ -1,0 +1,24 @@
+{
+  "name": "mssql-repro",
+  "version": "1.0.0",
+  "description": "Reproduce node-mssql issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmorganltd/node-mssql-repro.git"
+  },
+  "author": "@willmorgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmorganltd/node-mssql-repro/issues"
+  },
+  "homepage": "https://github.com/wmorganltd/node-mssql-repro#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mssql": "^5.1.0"
+  }
+}
